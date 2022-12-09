@@ -23,3 +23,4 @@ sudo iptables -t mangle -F
 sudo iptables -F
 sudo iptables -X
 iptables-save > /etc/iptables/rules.v4
+sudo reboot
